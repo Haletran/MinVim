@@ -13,9 +13,9 @@ MinVim is a lightweight and streamlined configuration setup for Vim, tailored fo
 
 ## TODO
 
-- [ ] Find minimalistic plugins 
+- [x] Find minimalistic plugins 
 - [ ] Find themes
-- [ ] Create the best basic .vimrc
+- [x] Create the best basic .vimrc
 - [ ] Create Setup Script
 - [ ] Make the documentation
 
