@@ -15,7 +15,7 @@ if [ -f "$CONFIG_PATH" ]; then
 fi
 
 #DL .vimrc file
-wget -O ~/.vimrc  https://raw.githubusercontent.com/Haletran/MinVim/main/vimrc
+wget -O ~/.vimrc https://raw.githubusercontent.com/Haletran/MinVim/main/.vimrc
 
 ## Make directory for plugins
 mkdir -p ~/.vim/autoload ~/.vim/bundle
