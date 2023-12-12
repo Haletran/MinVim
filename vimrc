@@ -1,8 +1,8 @@
-#VIMRC CONFIG
+" VIMRC CONFIG
 
 execute pathogen#infect()
 
-#BASIC
+" BASIC
 set tabstop=4
 set noexpandtab
 syntax on
@@ -11,5 +11,5 @@ set mouse=a
 set wildmenu
 filetype plugin indent on
 
-#PLUGINS
+" PLUGINS
 
