@@ -18,3 +18,4 @@ MinVim is a lightweight and streamlined configuration setup for Vim, tailored fo
 - [x] Create the best basic .vimrc
 - [ ] Create Setup Script
 - [ ] Make the documentation
+- [ ] Use vim basic bar instead of airline
