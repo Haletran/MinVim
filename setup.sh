@@ -26,7 +26,7 @@ echo -e "\033[32mSetting things up...\033[0m"
 #DL .vimrc file
 wget -O ~/.vimrc https://raw.githubusercontent.com/Haletran/MinVim/main/.vimrc -q > /dev/null
 ## Make directory for plugins
-mkdir -p ~/.vim/autoload ~/.vim/bundle > /dev/null
+mkdir -p ~/.vim/autoload ~/.vim/bundle  ~/.vim/colors > /dev/null
 
 ## Installing plugins
 
@@ -37,3 +37,10 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim > /dev/null
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline > /dev/null
 #NERDTREE
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
+
+
+#Installing themes
+
+#onedark.vim
+git clone https://raw.githubusercontent.com/joshdick/onedark.vim/main/autoload/onedark.vim ~/.vim/colors
+git clone https://raw.githubusercontent.com/joshdick/onedark.vim/main/autoload/onedark.vim ~/.vim/autoload
