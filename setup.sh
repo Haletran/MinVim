@@ -35,4 +35,5 @@ echo -e "\033[32mInstalling extensions...\033[0m"
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim > /dev/null
 #AIRLINE
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline > /dev/null
-
+#NERDTREE
+git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
