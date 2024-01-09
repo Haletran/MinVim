@@ -42,5 +42,5 @@ git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 #Installing themes
 
 #onedark.vim
-git clone https://raw.githubusercontent.com/joshdick/onedark.vim/main/autoload/onedark.vim ~/.vim/colors
-git clone https://raw.githubusercontent.com/joshdick/onedark.vim/main/autoload/onedark.vim ~/.vim/autoload
+wget -O  ~/.vim/colors https://raw.githubusercontent.com/joshdick/onedark.vim/main/autoload/onedark.vim -q > /dev/null
+wget -O ~/.vim/autoload/ https://raw.githubusercontent.com/joshdick/onedark.vim/main/autoload/onedark.vim -q > /dev/null
